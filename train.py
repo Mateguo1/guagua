@@ -133,7 +133,7 @@ set_session(tf.Session(config=config))
 
 if __name__ == "__main__":
     # 标签的位置
-    annotation_path = '/content/guagua/2007_train.txt'
+    annotation_path = '/content/guagua/2012_train.txt'
     # 获取classes和anchor的位置
     classes_path = '/content/guagua/model_data/voc_classes.txt'    
     anchors_path = '/content/guagua/model_data/yolo_anchors.txt'
